@@ -52,6 +52,14 @@ h6 {
 }
 
 .main-panel {
-    background-color: blanchedalmond;
     flex: 65%;
+    padding: 36px 16px;
+}
+
+.main-panel__text--italicize {
+    font-style: italic;
+}
+
+label {
+    text-transform: uppercase;
 }
