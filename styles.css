@@ -95,12 +95,12 @@ input {
 }
 
 input:focus {
-    border-color: blue;
+    border-color: #294962;
     outline: none;
 }
 
 button[type="submit"] {
-    background-color: #596D48;
+    background-color: #294962;
     border: none;
     color: #fff;
     padding: 8px 24px;
@@ -115,5 +115,36 @@ button[type="submit"]:hover {
 .login {
     text-decoration: none;
     font-weight: bold;
-    color: #596D48;
+    color: #294962;
+}
+
+.logo-container {
+    background-color: #294962;
+    opacity: 0.7;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 15%;
+    height: auto;
+    display: inline;
+}
+
+.logo-container span {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.side-panel-footer {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 60%;
+}
+
+.side-panel-footer a {
+    color: #fff;
 }
