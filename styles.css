@@ -47,17 +47,17 @@ body {
 /* side panel and main panel design */
 .container {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .side-panel {
-    flex: 35%;
+    flex: 40%;
     background: url("images/casey-horner-RmoWqDCqN2E-unsplash.jpg") no-repeat;
     background-size: cover;
 }
 
 .main-panel {
-    flex: 65%;
+    flex: 60%;
     padding: 56px 88px 24px 48px;
 }
 
@@ -147,4 +147,12 @@ button[type="submit"]:hover {
 
 .side-panel-footer a {
     color: #fff;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.error-text {
+    color: red;
 }
