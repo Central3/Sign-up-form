@@ -40,6 +40,10 @@ h6 {
     overflow-wrap: break-word;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 /* side panel and main panel design */
 .container {
     display: flex;
@@ -47,19 +51,69 @@ h6 {
 }
 
 .side-panel {
-    background-color: aqua;
     flex: 35%;
+    background: url("images/casey-horner-RmoWqDCqN2E-unsplash.jpg") no-repeat;
+    background-size: cover;
 }
 
 .main-panel {
     flex: 65%;
-    padding: 36px 16px;
+    padding: 56px 88px 24px 48px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+form>div {
+    margin: 16px 0;
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
 }
 
 .main-panel__text--italicize {
     font-style: italic;
 }
 
-label {
-    text-transform: uppercase;
+.main-panel__text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.main-panel__additional-text {
+    margin: 16px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #596D48;
+    border: none;
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    box-shadow: 2px 2px #aaa;
+}
+
+.login {
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
 }
